@@ -1,0 +1,88 @@
+/* forms.css */
+
+/* Style du conteneur principal du formulaire */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style pour le champ de saisie du problème */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Assure que la largeur inclut la bordure */
+  }
+  
+  /* Style pour le bouton de soumission */
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style pour la liste des problèmes de diagnostic */
+  .problem-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style pour chaque élément de la liste des problèmes */
+  .problem-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour les liens des problèmes */
+  .problem-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style pour les liens des problèmes au survol */
+  .problem-link:hover {
+    text-decoration: underline;
+  }
+  .h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #347ce2;
+  }
+  
+  .h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: #12ad87;
+  }
+  
+  /* CSS pour les boutons */
+.btn-container {
+  margin-top: 50px; 
+  
+}
+
+.btn-container button {
+  margin-right: 10px;
+  margin-bottom: 20px; 
+}
+
+  

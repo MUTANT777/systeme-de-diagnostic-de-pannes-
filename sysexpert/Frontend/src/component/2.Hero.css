@@ -1,0 +1,62 @@
+/* 2.Hero.css */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem; /* Réduire l'espacement vertical */
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; /* Ajuster la hauteur automatiquement pour maintenir les proportions */
+}
+
+.hero-content {
+  flex: 2;
+  margin-left: 4rem;
+}
+
+.hero-text-left {
+  margin-bottom: 1rem; /* Réduire l'espacement entre le titre et le paragraphe */
+}
+
+.hero-text-right {
+  display: flex;
+  align-items: center; /* Aligner les boutons verticalement au centre */
+}
+
+.btn-black,
+.btn-white {
+  text-decoration: none;
+  padding: 1rem 2rem; /* Augmenter la taille des boutons */
+  margin-right: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-white {
+  background-color: rgb(209, 205, 205);
+  color: black;
+}
+.h1{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,54 @@
+/* Styles pour la section ResultSection */
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .result-left {
+    flex: 1;
+  }
+  
+  .result-left img {
+    width: auto;
+    height: auto;
+  }
+  
+  .result-right {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .result-right h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .result-right h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .result-right .buttons {
+    display: flex;
+  }
+  
+  .result-right .buttons .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result-right .buttons .btn:last-child {
+    margin-right: 0;
+  }
+  
+  .result-right .buttons .btn:hover {
+    background-color: #0056b3;
+  }
+  

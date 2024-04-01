@@ -1,0 +1,52 @@
+/* 1.Header.css */
+
+.navbar {
+  background-color: #333; /* Couleur de fond de la barre de navigation */
+  color: white; /* Couleur du texte */
+  display: flex;
+  justify-content: space-between; /* Aligner les éléments à l'extrémité des côtés */
+  align-items: center; /* Aligner les éléments verticalement au centre */
+  padding: 1rem; /* Espacement intérieur */
+}
+
+.navbar-left ul {
+  list-style-type: none; /* Supprimer les puces de liste */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-left ul li {
+  display: inline; /* Afficher les éléments de liste en ligne */
+  margin-right: 1rem; /* Espacement entre les éléments de liste */
+}
+
+.navbar-left ul li a {
+  color: white; /* Couleur du texte des liens */
+  text-decoration: none; /* Supprimer la décoration de soulignement des liens */
+}
+
+.navbar-logo {
+  font-size: 1.5rem; /* Taille de police du logo */
+  font-weight: bold; /* Poids de la police du logo */
+  text-decoration: none; /* Supprimer la décoration de soulignement */
+  color: white; /* Couleur du texte */
+}
+
+.navbar-right a {
+  color: white; /* Couleur du texte */
+  text-decoration: none; /* Supprimer la décoration de soulignement */
+}
+
+/* Style pour le lien actif */
+.navbar-left ul li a.active,
+.navbar-logo.active,
+.navbar-right a.active {
+  font-weight: bold; /* Mettre en gras pour indiquer l'élément actif */
+}
+
+/* Hover effect */
+.navbar-left ul li a:hover,
+.navbar-logo:hover,
+.navbar-right a:hover {
+  text-decoration: underline; /* Souligner le texte au survol */
+}
